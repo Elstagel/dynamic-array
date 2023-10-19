@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 
@@ -128,41 +128,41 @@ int main() {
         index,
         number;
 
-    cout << "Ââåäèòå äëèíó ìàññèâà: " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << endl;
     cin >> size;
     int* arr = new int[size];
-    cout << endl << "Ìàññèâ áåç èçìåíåíèé: " << endl;
+    cout << endl << "ÐœÐ°ÑÑÐ¸Ð² Ð±ÐµÐ· Ð¸Ð·Ð¼ÐµÐ½ÐµÐ½Ð¸Ð¹: " << endl;
     FillArray(arr, size);
     ShowArray(arr, size);
 
 
-    cout << "Ââåäèòå ×èñëî ÷òî áû äîáàâèòü â êîíåö ìàññèâà: " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð§Ð¸ÑÐ»Ð¾ Ñ‡Ñ‚Ð¾ Ð±Ñ‹ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð² ÐºÐ¾Ð½ÐµÑ† Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << endl;
     cin >> number;
     PushBack(arr, size, number);
     ShowArray(arr, size);
 
 
-    cout << "Ââåäèòå ×èñëî ÷òî áû äîáàâèòü â íà÷àëî ìàññèâà: " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð§Ð¸ÑÐ»Ð¾ Ñ‡Ñ‚Ð¾ Ð±Ñ‹ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ð² Ð½Ð°Ñ‡Ð°Ð»Ð¾ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << endl;
     cin >> number;
     PushForward(arr, size, number);
     ShowArray(arr, size);
 
 
-    cout << "Ââåäèòå èíäåêñ ìàñèâà ÷òî áû çàìåíèòü ÷èñëî: " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð½Ð´ÐµÐºÑ Ð¼Ð°ÑÐ¸Ð²Ð° Ñ‡Ñ‚Ð¾ Ð±Ñ‹ Ð·Ð°Ð¼ÐµÐ½Ð¸Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾: " << endl;
     cin >> index;
-    cout << "Ââåäèòå ×èñëî: " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð§Ð¸ÑÐ»Ð¾: " << endl;
     cin >> number;
     AnyNumber1(arr, size, number, index);
     ShowArray(arr, size);
 
-    cout << "Ââåäèòå èíäåêñ ìàñèâà ÷òî áû äîáàâèòü ÷èñëî: " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð½Ð´ÐµÐºÑ Ð¼Ð°ÑÐ¸Ð²Ð° Ñ‡Ñ‚Ð¾ Ð±Ñ‹ Ð´Ð¾Ð±Ð°Ð²Ð¸Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾: " << endl;
     cin >> index;
-    cout << "Ââåäèòå ×èñëî: " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð§Ð¸ÑÐ»Ð¾: " << endl;
     cin >> number;
     AnyNumber(arr, size, number, index);
     ShowArray(arr, size);
 
-    cout << "Ââåäèòå èíäåêñ ìàñèâà ÷òî áû óäàëèòü ÷èñëî: " << endl;
+    cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð½Ð´ÐµÐºÑ Ð¼Ð°ÑÐ¸Ð²Ð° Ñ‡Ñ‚Ð¾ Ð±Ñ‹ ÑƒÐ´Ð°Ð»Ð¸Ñ‚ÑŒ Ñ‡Ð¸ÑÐ»Ð¾: " << endl;
     cin >> index;
     AnyNumber3(arr, size, index);
     ShowArray(arr, size);
